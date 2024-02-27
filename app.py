@@ -6,7 +6,7 @@ assistant = st.secrets.AI_uKnow
 
 st.set_page_config(
     page_title = "AI_uKnow",
-    page_icon = "🦫",
+    page_icon = "𓀛",
 )
 
 def main():
@@ -17,9 +17,9 @@ def main():
     t = temporary.container()
     with t:
         m1 = st.chat_message("user")
-        a1 = st.chat_message("assistant", avatar="🦫")
+        a1 = st.chat_message("assistant")
         m2 = st.chat_message("user")
-        a2 = st.chat_message("assistant", avatar="🦫")
+        a2 = st.chat_message("assistant")
         m1.write("フィッシュ&チップスの魚は何か聞きたい")
         a1.write("""
 1. Could you tell me **what kind of fish** is typically used in Fish & Chips?
