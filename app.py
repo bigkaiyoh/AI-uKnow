@@ -3,9 +3,11 @@ from modules import run_assistant
 
 assistant = st.secrets.AI_uKnow
 
-# #Initialize OpenAI client and set default assistant_id
-# client = OpenAI(api_key=api)
 
+st.set_page_config(
+    page_title = "AI_uKnow",
+    page_icon = "🦫",
+)
 
 def main():
     st.title("AI版　なんてuKnow?")
