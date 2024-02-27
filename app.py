@@ -20,11 +20,11 @@ def main():
         a1 = st.chat_message("assistant")
         m2 = st.chat_message("user")
         a2 = st.chat_message("assistant")
-        m1.write("隣のお爺さんが毎晩遅くまで熱唱している")
+        m1.write("フィッシュ&チップスの魚は何か聞きたい")
         a1.write("""
-1. The elderly man next door **sings loudly** until late at night every evening.
-2. It seems the elderly gentleman next door **enjoys singing loudly** late into the night.
-3. Have you noticed the late-night **singing** from the elderly man next door every night?
+1. Could you tell me **what kind of fish** is typically used in Fish & Chips?
+2. I'd like to know **which fish** is traditionally used in Fish & Chips.
+3. I was wondering which **type of fish** is used for Fish & Chips?
 
 """)
         m2.write("例：雛人形の由来を友達に教えてあげたい")
