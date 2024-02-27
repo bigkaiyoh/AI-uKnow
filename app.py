@@ -6,7 +6,7 @@ assistant = st.secrets.AI_uKnow
 
 st.set_page_config(
     page_title = "AI_uKnow",
-    page_icon = "𓀛",
+    page_icon = "🦔",
 )
 
 def main():
