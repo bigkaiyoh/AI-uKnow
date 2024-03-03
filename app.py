@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 def main():
-    st.title("Phrase EasyFix")
+    st.title("Vocab Van!")
     user_input = st.chat_input("どんな状況で何を伝えたいか教えてください")
 
     temporary = st.empty()
